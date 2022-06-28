@@ -29,3 +29,10 @@ When importing a package, you can refer only to its exported names. Any "unexpor
 Run the code. Notice the error message.
 
 To fix the error, rename math.pi to math.Pi and try it again.
+
+# Function 
+A function can take zero or more arguments.
+
+In this example, add takes two parameters of type int.
+
+Notice that the type comes after the variable name.
