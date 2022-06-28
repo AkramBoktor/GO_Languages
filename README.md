@@ -55,7 +55,7 @@ func main() {
 }
 
 # Declares  List of variables 
-**Var keyword**
+**Var keyword** \n
 package main
 
 import "fmt"
