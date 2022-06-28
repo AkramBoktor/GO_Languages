@@ -11,4 +11,6 @@ func main() {
 	fmt.Println((rand.Float64()*5)+5, ",")
 	fmt.Println("Number Sqrt ", math.Sqrt(9))
 	fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
+	fmt.Println(math.Pi)
+	fmt.Printf("Your Power pi = %g", math.Pi)
 }
