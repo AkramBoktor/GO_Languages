@@ -40,16 +40,17 @@ Notice that the type comes after the variable name.
 # Naked Return Function
 A return statement without arguments returns the named return values. This is known as a **"naked"** return.
 used in short function
+<br/>
 package main
 
 import "fmt"
-
+<br/>
 func split(sum int) (x, y int) {
 	x = sum * 4 / 9
 	y = sum - x
 	return
 }
-
+<br/>
 func main() {
 	fmt.Println(split(17))
 }
