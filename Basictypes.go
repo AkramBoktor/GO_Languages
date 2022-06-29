@@ -11,7 +11,7 @@ func main() {
 		number  int        = 2
 		complex complex128 = cmplx.Sqrt(-5 + 12i)
 	)
-	fmt.Printf("Type %T and Value %v", check, check)
-	fmt.Printf("Type %T and Value %v", number, number)
-	fmt.Printf("Type %T and Value %v", complex, complex)
+	fmt.Printf("Type %T and Value %v \n", check, check)
+	fmt.Printf("Type %T and Value %v \n", number, number)
+	fmt.Printf("Type %T and Value %v \n", complex, complex)
 }
