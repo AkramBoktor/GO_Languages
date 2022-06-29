@@ -139,6 +139,9 @@ Constants can be character, string, boolean, or numeric values.
 
 Constants cannot be declared using the **:= syntax.**
 // declear constant varibale constant can't declear with :=
-	const constValue int = 5
-	//constValue = 6 * can't assign constValue to variables
-	fmt.Println(constValue)
+
+const constValue int = 5
+
+//constValue = 6 * can't assign constValue to variables
+	
+fmt.Println(constValue)
