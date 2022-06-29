@@ -131,3 +131,17 @@ func main() {
 Type: bool Value: false
 Type: uint64 Value: 18446744073709551615
 Type: complex128 Value: (2+3i)
+
+# Constants
+Constants are declared like variables, but with the const keyword.
+
+Constants can be character, string, boolean, or numeric values.
+
+Constants cannot be declared using the **:= syntax.**
+// declear constant varibale constant can't declear with :=
+
+const constValue int = 5
+
+//constValue = 6 * can't assign constValue to variables
+	
+fmt.Println(constValue)
