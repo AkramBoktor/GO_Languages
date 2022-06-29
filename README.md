@@ -103,12 +103,14 @@ float32 float64
 complex64 complex128
 
 **Examples**
+<br/>
 package main
 
 import (
 	"fmt"
 	"math/cmplx"
 )
+<br/>
 
 var (
 	ToBe   bool       = false
