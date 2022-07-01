@@ -24,5 +24,8 @@ func main() {
 	const constValue int = 5
 	//constValue = 6 * can't assign constValue to variables
 	fmt.Println(constValue)
+	// knowing type of the variables
+	checktype := 5
+	fmt.Printf("the type of checktype variable is =  %T \n", checktype)
 
 }
