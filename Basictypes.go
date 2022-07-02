@@ -28,4 +28,10 @@ func main() {
 	checktype := 5
 	fmt.Printf("the type of checktype variable is =  %T \n", checktype)
 
+	// you can used := in the main function only
+
+	variablesInt := 5
+
+	fmt.Printf("The type of variables %T and the values is %v", variablesInt, variablesInt)
+
 }
