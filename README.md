@@ -162,4 +162,4 @@ The loop will stop iterating once the boolean condition evaluates to false.
 **Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.**
 
 # If
-**Go's if statements are like its for loops; the expression need not be surrounded by parentheses ( ) but the braces { } are required.
+**Go's if statements are like its for loops; the expression need not be surrounded by parentheses ( ) but the braces { } are required.**
