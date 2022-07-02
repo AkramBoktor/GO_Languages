@@ -157,3 +157,6 @@ The basic **for loop** has three components separated by semicolons:
 •	the post statement: executed at the end of every iteration
 The init statement will often be a short variable declaration, and the variables declared there are visible only in the scope of the for statement.
 
+The loop will stop iterating once the boolean condition evaluates to false.
+
+**Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
