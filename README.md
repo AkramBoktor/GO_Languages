@@ -159,4 +159,4 @@ The init statement will often be a short variable declaration, and the variables
 
 The loop will stop iterating once the boolean condition evaluates to false.
 
-**Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
+**Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.**
