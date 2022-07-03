@@ -174,11 +174,15 @@ The loop will stop iterating once the boolean condition evaluates to false.
 	
 	fmt.Printf("%v \n", 10)
 	
+	**bool**
+	
 	// to know the value of bool %t
 
 	fmt.Printf("%t \n", true)
 	
-	// integer %b base 2
+	**integer**
+	
+	%b base 2
 	
 	// %o base 8
 	
@@ -194,7 +198,7 @@ The loop will stop iterating once the boolean condition evaluates to false.
 	
 	fmt.Printf("%d \n", 10)
 
-	// floating point
+	**floating point**
 	
 	// %e scientif notation
 	
@@ -208,7 +212,7 @@ The loop will stop iterating once the boolean condition evaluates to false.
 	
 	fmt.Printf("%g \n", 10.4)
 
-	// string
+	**string**
 	
 	// %s
 	
