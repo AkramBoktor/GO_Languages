@@ -231,3 +231,12 @@ the **break** statement that is needed at the end of each case in those language
 ![image](https://user-images.githubusercontent.com/35446384/177084768-88676781-29ef-4ae2-b60c-c137c9dcebf9.png)
 
 
+# Defer
+**Stacking defers**
+Deferred function calls are pushed onto a stack. When a function returns, its deferred calls are executed in last-in-first-out order.
+![image](https://user-images.githubusercontent.com/35446384/177085660-91e68178-abf7-41a9-9b02-1789b364c9a9.png)
+**Output**
+![image](https://user-images.githubusercontent.com/35446384/177085721-d31acfc9-0180-4ff2-b0eb-add429e12869.png)
+
+
+
