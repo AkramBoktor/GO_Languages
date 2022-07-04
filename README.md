@@ -221,3 +221,13 @@ The loop will stop iterating once the boolean condition evaluates to false.
 	fmt.Printf("%s \n", "Hello")
 	
 	fmt.Printf("%q \n", "Hello")
+	
+	
+# Switch Case
+A **switch** statement is a shorter way to write a sequence of if - else statements. It runs the first case whose value is equal to the condition expression
+
+the **break** statement that is needed at the end of each case in those languages is provided automatically in Go. Another important difference is that Go's switch cases need not be constants, and the values involved need not be integers.
+
+![image](https://user-images.githubusercontent.com/35446384/177084768-88676781-29ef-4ae2-b60c-c137c9dcebf9.png)
+
+
