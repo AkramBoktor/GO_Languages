@@ -163,3 +163,71 @@ The loop will stop iterating once the boolean condition evaluates to false.
 
 # If
 **Go's if statements are like its for loops; the expression need not be surrounded by parentheses ( ) but the braces { } are required.**
+
+# Types
+
+	// to know type - # type %t
+	
+	fmt.Printf("%T \n", 10)
+	
+	// to know the value %v
+	
+	fmt.Printf("%v \n", 10)
+	
+**bool**
+	
+	// to know the value of bool %t
+
+	fmt.Printf("%t \n", true)
+	
+**integer**
+	
+	%b base 2
+	
+	// %o base 8
+	
+	// %x base 16
+	
+	// %d base 10
+	
+	fmt.Printf("%d \n", 10)
+	
+	fmt.Printf("%o \n", 10)
+	
+	fmt.Printf("%x \n", 10)
+	
+	fmt.Printf("%d \n", 10)
+
+**floating point**
+	
+	// %e scientif notation
+	
+	// %f decimal
+	
+	// %g large exponent
+	
+	fmt.Printf("%e \n", 10.4)
+	
+	fmt.Printf("%f \n", 10.4)
+	
+	fmt.Printf("%g \n", 10.4)
+
+**string**
+	
+	// %s
+	
+	// %q
+	
+	fmt.Printf("%s \n", "Hello")
+	
+	fmt.Printf("%q \n", "Hello")
+	
+	
+# Switch Case
+A **switch** statement is a shorter way to write a sequence of if - else statements. It runs the first case whose value is equal to the condition expression
+
+the **break** statement that is needed at the end of each case in those languages is provided automatically in Go. Another important difference is that Go's switch cases need not be constants, and the values involved need not be integers.
+
+![image](https://user-images.githubusercontent.com/35446384/177084768-88676781-29ef-4ae2-b60c-c137c9dcebf9.png)
+
+
