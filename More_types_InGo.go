@@ -28,5 +28,12 @@ func main() {
 	// struct
 	//A struct is a collection of fields.
 	fmt.Println(Vertex{1, 2})
+	var v = Vertex{2, 4}
+	fmt.Printf("the struct value are access by . %v \n", v.X)
+	// pointer to struct
+	pointerTOStruct := &v
+	pointerTOStruct.X = 1
+	fmt.Printf("the struct pointer value are access by . %v \n", pointerTOStruct.X)
+	fmt.Println(v)
 
 }
