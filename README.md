@@ -252,7 +252,7 @@ The & operator generates a pointer to its operand.
 
 i := 42
 
-p = &i
+p = &i;
 
 ![image](https://user-images.githubusercontent.com/35446384/177928471-ccb011d5-bc27-46e3-967e-9571295cdb0c.png)
 
