@@ -31,9 +31,11 @@ func main() {
 	var v = Vertex{2, 4}
 	fmt.Printf("the struct value are access by . %v \n", v.X)
 	// pointer to struct
-	pointerTOStruct := &v
+	pointerTOStruct := &Vertex{5, 6}
 	pointerTOStruct.X = 1
 	fmt.Printf("the struct pointer value are access by . %v \n", pointerTOStruct.X)
-	fmt.Println(v)
+	// return The special prefix & returns a pointer to the struct value.
+
+	fmt.Println(pointerTOStruct)
 
 }
