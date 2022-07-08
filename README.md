@@ -254,5 +254,5 @@ i := 42
 
 p = &i;
 
-![image](https://user-images.githubusercontent.com/35446384/177928471-ccb011d5-bc27-46e3-967e-9571295cdb0c.png)
+![image](https://user-images.githubusercontent.com/35446384/177928665-de512947-7be1-41f2-8046-227b06a52138.png)
 
