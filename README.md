@@ -256,3 +256,11 @@ p = &i;
 
 ![image](https://user-images.githubusercontent.com/35446384/177928665-de512947-7be1-41f2-8046-227b06a52138.png)
 
+# Pointers to structs
+Struct fields can be accessed through a struct pointer.
+
+To access the field X of a struct when we have the struct pointer p we could write (*p).X. However, that notation is cumbersome, so the language permits us instead to write just p.X, without the explicit dereference.
+
+![image](https://user-images.githubusercontent.com/35446384/177947741-b999665d-ce77-4256-ad7e-bcfdd58b973b.png)
+
+
