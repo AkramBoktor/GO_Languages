@@ -263,4 +263,14 @@ To access the field X of a struct when we have the struct pointer p we could wri
 
 ![image](https://user-images.githubusercontent.com/35446384/177947741-b999665d-ce77-4256-ad7e-bcfdd58b973b.png)
 
+# Array
+The type [n]T is an array of n values of type T.
+
+The expression
+
+var a [10]int
+declares a variable a as an array of ten integers.
+An array's length is part of its type, so arrays cannot be resized. This seems limiting, but don't worry; Go provides a convenient way of working with arrays.
+
+![image](https://user-images.githubusercontent.com/35446384/177979547-d1ba42a1-6dae-4d04-8ff3-0425c68097f4.png)
 
