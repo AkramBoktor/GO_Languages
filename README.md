@@ -241,3 +241,18 @@ Deferred function calls are pushed onto a stack. When a function returns, its de
 
 
 
+# Pointers
+**Go has pointers.** A pointer holds the memory address of a value.
+
+The type *T is a pointer to a T value. Its zero value is nil.
+
+var p *int
+
+The & operator generates a pointer to its operand.
+
+i := 42
+
+p = &i
+
+![image](https://user-images.githubusercontent.com/35446384/177928471-ccb011d5-bc27-46e3-967e-9571295cdb0c.png)
+
