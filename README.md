@@ -274,3 +274,6 @@ An array's length is part of its type, so arrays cannot be resized. This seems l
 
 ![image](https://user-images.githubusercontent.com/35446384/177979547-d1ba42a1-6dae-4d04-8ff3-0425c68097f4.png)
 
+** Length of the array by len(arr)
+![image](https://user-images.githubusercontent.com/35446384/177979700-0d5c64f1-45b8-492f-a175-0ed192c5a3a6.png)
+
