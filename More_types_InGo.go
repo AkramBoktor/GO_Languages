@@ -37,5 +37,14 @@ func main() {
 	// return The special prefix & returns a pointer to the struct value.
 
 	fmt.Println(pointerTOStruct)
+	println("*******************************************")
+	// Arrays
+	var arrayInt [10]int
+	for i := 0; i < len(arrayInt); i++ {
+		arrayInt[i] = i
+		fmt.Printf("The element %v is equal %v \n", i, arrayInt[i])
+	}
+
+	// function of the array Slice
 
 }
