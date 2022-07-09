@@ -277,3 +277,14 @@ An array's length is part of its type, so arrays cannot be resized. This seems l
 **Length of the array by len(arr)**
 ![image](https://user-images.githubusercontent.com/35446384/177979700-0d5c64f1-45b8-492f-a175-0ed192c5a3a6.png)
 
+# Slice
+
+An array has a fixed size. A slice, on the other hand, is a dynamically-sized, flexible view into the elements of an array. In practice, slices are much more common than arrays.
+
+The type []T is a slice with elements of type T.
+
+A slice is formed by specifying two indices, a low and high bound, separated by a colon:
+
+**a[low : high]**
+![image](https://user-images.githubusercontent.com/35446384/178087572-8160a9b7-4cc8-4647-a2bc-e6bfab63fc3d.png)
+
