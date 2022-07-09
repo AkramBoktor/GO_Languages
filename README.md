@@ -288,3 +288,11 @@ A slice is formed by specifying two indices, a low and high bound, separated by 
 **a[low : high]**
 ![image](https://user-images.githubusercontent.com/35446384/178087572-8160a9b7-4cc8-4647-a2bc-e6bfab63fc3d.png)
 
+# Slice are like references to arrays
+
+A slice does not store any data, it just describes a section of an underlying array.
+
+Changing the elements of a slice modifies the corresponding elements of its underlying array.
+
+![image](https://user-images.githubusercontent.com/35446384/178087888-5c78f3ee-bb9d-445d-b397-cb3ab2ad291a.png)
+
