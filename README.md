@@ -263,4 +263,36 @@ To access the field X of a struct when we have the struct pointer p we could wri
 
 ![image](https://user-images.githubusercontent.com/35446384/177947741-b999665d-ce77-4256-ad7e-bcfdd58b973b.png)
 
+# Array
+The type [n]T is an array of n values of type T.
+
+The expression
+
+var a [10]int
+declares a variable a as an array of ten integers.
+An array's length is part of its type, so arrays cannot be resized. This seems limiting, but don't worry; Go provides a convenient way of working with arrays.
+
+![image](https://user-images.githubusercontent.com/35446384/177979547-d1ba42a1-6dae-4d04-8ff3-0425c68097f4.png)
+
+**Length of the array by len(arr)**
+![image](https://user-images.githubusercontent.com/35446384/177979700-0d5c64f1-45b8-492f-a175-0ed192c5a3a6.png)
+
+# Slice
+
+An array has a fixed size. A slice, on the other hand, is a dynamically-sized, flexible view into the elements of an array. In practice, slices are much more common than arrays.
+
+The type []T is a slice with elements of type T.
+
+A slice is formed by specifying two indices, a low and high bound, separated by a colon:
+
+**a[low : high]**
+![image](https://user-images.githubusercontent.com/35446384/178087572-8160a9b7-4cc8-4647-a2bc-e6bfab63fc3d.png)
+
+# Slice are like references to arrays
+
+A slice does not store any data, it just describes a section of an underlying array.
+
+Changing the elements of a slice modifies the corresponding elements of its underlying array.
+
+![image](https://user-images.githubusercontent.com/35446384/178087888-5c78f3ee-bb9d-445d-b397-cb3ab2ad291a.png)
 
