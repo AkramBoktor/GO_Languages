@@ -45,6 +45,16 @@ func main() {
 		fmt.Printf("The element %v is equal %v \n", i, arrayInt[i])
 	}
 
-	// function of the array Slice
+	// function of the array Slice [low:high]
+	//0,1,2,3,4
+	arraySlice := [5]int{1, 2, 3, 4, 5}
+	var prime []int = arraySlice[1:4]
+	// 2,3,4
+	fmt.Printf("the array using slice %v \n", prime)
+	// slice it's work as reference type when you change the value
+	// it's will change of the main value working as call by reference
+	prime[0] = 3
+	// 1,3,3,4,5
+	fmt.Printf("the array after modified value is %v", arraySlice)
 
 }
