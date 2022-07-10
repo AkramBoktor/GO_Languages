@@ -304,6 +304,6 @@ Changing the elements of a slice modifies the corresponding elements of its unde
 ![image](https://user-images.githubusercontent.com/35446384/178087888-5c78f3ee-bb9d-445d-b397-cb3ab2ad291a.png)
 
 # Slice Literal : 
-It's like array literal without length
+It's like array literal without length.
 ![image](https://user-images.githubusercontent.com/35446384/178129463-500de6db-6617-4704-b27a-7e67457596be.png)
 
