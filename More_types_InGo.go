@@ -55,6 +55,36 @@ func main() {
 	// it's will change of the main value working as call by reference
 	prime[0] = 3
 	// 1,3,3,4,5
-	fmt.Printf("the array after modified value is %v", arraySlice)
+	fmt.Printf("the array after modified value is %v \n", arraySlice)
+
+	// slice literal with value
+	//A slice literal is like an array literal without the length.
+	// This is an array literal:
+	arrayLiteral := []bool{true, false, true}
+	fmt.Printf("Print array Literal value %v \n", arrayLiteral)
+
+	s := []int{2, 3, 5, 7, 11, 13}
+
+	s = s[1:4]
+	fmt.Println(s)
+
+	s = s[:2]
+
+	fmt.Println(s)
+
+	s = s[1:]
+	fmt.Println(s)
+
+	// nil slice
+	// the zeo capacity and length is nil
+	var arrayNilSlice []int
+	fmt.Println("Array nil slice")
+	fmt.Println(arrayNilSlice, len(arrayNilSlice), cap(arrayNilSlice))
+
+	// make function you can create slice with make function to make
+	// it's as dynamic make(type,size,capacity)
+	arraySliceMake := make([]int, 3)
+	fmt.Printf("the array created with make len=%d cpacity=%d array=%v",
+		len(arraySliceMake), cap(arraySliceMake), arraySliceMake)
 
 }
