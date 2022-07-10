@@ -157,6 +157,13 @@ The basic **for loop** has three components separated by semicolons:
 •	the post statement: executed at the end of every iteration
 The init statement will often be a short variable declaration, and the variables declared there are visible only in the scope of the for statement.
 
+# Nil slices
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+![image](https://user-images.githubusercontent.com/35446384/178130538-10e7499e-ec22-47ea-9d15-39e0ce32e28e.png)
+
+
 The loop will stop iterating once the boolean condition evaluates to false.
 
 **Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.**
@@ -295,4 +302,28 @@ A slice does not store any data, it just describes a section of an underlying ar
 Changing the elements of a slice modifies the corresponding elements of its underlying array.
 
 ![image](https://user-images.githubusercontent.com/35446384/178087888-5c78f3ee-bb9d-445d-b397-cb3ab2ad291a.png)
+
+# Slice Literal : 
+It's like array literal without length.
+![image](https://user-images.githubusercontent.com/35446384/178129463-500de6db-6617-4704-b27a-7e67457596be.png)
+
+
+# Nil slices
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+
+![image](https://user-images.githubusercontent.com/35446384/178130586-9e93e737-5c5f-4d28-9f39-0a0ead83c18c.png)
+
+# Create Slice with make
+
+Slices can be created with the built-in make function; this is how you create dynamically-sized arrays.
+
+The make function allocates a zeroed array and returns a slice that refers to that array:
+
+a := make([]int, 5)  // len(a)=5
+To specify a capacity, pass a third argument to make:
+
+b := make([]int, 0, 5) // len(b)=0, cap(b)=5
+![image](https://user-images.githubusercontent.com/35446384/178131435-7cf02e97-b0e3-4cae-92c4-1227adb35918.png)
 
