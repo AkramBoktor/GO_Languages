@@ -157,6 +157,13 @@ The basic **for loop** has three components separated by semicolons:
 •	the post statement: executed at the end of every iteration
 The init statement will often be a short variable declaration, and the variables declared there are visible only in the scope of the for statement.
 
+# Nil slices
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+![image](https://user-images.githubusercontent.com/35446384/178130538-10e7499e-ec22-47ea-9d15-39e0ce32e28e.png)
+
+
 The loop will stop iterating once the boolean condition evaluates to false.
 
 **Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.**
