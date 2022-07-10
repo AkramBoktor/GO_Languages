@@ -314,3 +314,16 @@ The zero value of a slice is nil.
 A nil slice has a length and capacity of 0 and has no underlying array.
 
 ![image](https://user-images.githubusercontent.com/35446384/178130586-9e93e737-5c5f-4d28-9f39-0a0ead83c18c.png)
+
+# Create Slice with make
+
+Slices can be created with the built-in make function; this is how you create dynamically-sized arrays.
+
+The make function allocates a zeroed array and returns a slice that refers to that array:
+
+a := make([]int, 5)  // len(a)=5
+To specify a capacity, pass a third argument to make:
+
+b := make([]int, 0, 5) // len(b)=0, cap(b)=5
+![image](https://user-images.githubusercontent.com/35446384/178131435-7cf02e97-b0e3-4cae-92c4-1227adb35918.png)
+
