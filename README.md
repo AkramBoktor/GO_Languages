@@ -307,3 +307,10 @@ Changing the elements of a slice modifies the corresponding elements of its unde
 It's like array literal without length.
 ![image](https://user-images.githubusercontent.com/35446384/178129463-500de6db-6617-4704-b27a-7e67457596be.png)
 
+
+# Nil slices
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+
+![image](https://user-images.githubusercontent.com/35446384/178130586-9e93e737-5c5f-4d28-9f39-0a0ead83c18c.png)
