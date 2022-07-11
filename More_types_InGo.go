@@ -84,7 +84,33 @@ func main() {
 	// make function you can create slice with make function to make
 	// it's as dynamic make(type,size,capacity)
 	arraySliceMake := make([]int, 3)
-	fmt.Printf("the array created with make len=%d cpacity=%d array=%v",
+	fmt.Printf("the array created with make len=%d cpacity=%d array=%v \n",
 		len(arraySliceMake), cap(arraySliceMake), arraySliceMake)
+
+	// Slice nil
+	// when create an array it's will be null
+	var arrayNill []int
+	fmt.Printf("nill array value %d len=%d cap=%d \n",
+		arrayNill, len(arrayNill), cap(arrayNill))
+
+	//apending a new element in the slice
+	arrayAppending := []int{1, 2, 3, 4, 5}
+	// apend new element
+	arrayAppending = append(arrayAppending, 6)
+	fmt.Printf("Append new element in the array %d \n", arrayAppending)
+	arrayAppending = append(arrayAppending, 7, 8, 9)
+	fmt.Printf("Append new elements more than one in the array %d \n", arrayAppending)
+
+	// Range
+	/*The range form of the for loop iterates over a slice or map.
+	When ranging over a slice, two values are returned for each iteration.
+	The first is the index,
+	and the second is a copy of the element at that index.*/
+	rangePowArray := []int{1, 2, 3, 4, 5, 6, 7}
+	for i, v := range rangePowArray {
+
+		fmt.Printf("the index value =%d and the value element = %d \n", i, v)
+
+	}
 
 }
