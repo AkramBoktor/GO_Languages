@@ -347,3 +347,9 @@ The resulting value of append is a slice containing all the elements of the orig
 ![image](https://user-images.githubusercontent.com/35446384/178181994-18acbc34-5bed-4307-beac-b971cf734e22.png)
 
 
+# Range
+The range form of the for loop iterates over a slice or map.
+
+When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
+![image](https://user-images.githubusercontent.com/35446384/178185406-1c773254-49d2-4bf6-a67f-f99a65a4debf.png)
+
