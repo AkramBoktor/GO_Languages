@@ -327,3 +327,29 @@ To specify a capacity, pass a third argument to make:
 b := make([]int, 0, 5) // len(b)=0, cap(b)=5
 ![image](https://user-images.githubusercontent.com/35446384/178131435-7cf02e97-b0e3-4cae-92c4-1227adb35918.png)
 
+# Slice nil
+
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+![image](https://user-images.githubusercontent.com/35446384/178181093-8aded6f5-3ed9-4211-9676-366dd7b77412.png)
+![image](https://user-images.githubusercontent.com/35446384/178181213-10680009-375a-40d7-b50b-10e165e29cbd.png)
+
+# Appending to a slice
+It is common to append new elements to a slice, and so Go provides a built-in append function. The documentation of the built-in package describes append.
+
+func append(s []T, vs ...T) []T
+The first parameter s of append is a slice of type T, and the rest are T values to append to the slice.
+
+The resulting value of append is a slice containing all the elements of the original slice plus the provided values.
+
+![image](https://user-images.githubusercontent.com/35446384/178181977-450a6582-c163-450d-b93a-a92032dc9894.png)
+![image](https://user-images.githubusercontent.com/35446384/178181994-18acbc34-5bed-4307-beac-b971cf734e22.png)
+
+
+# Range
+The range form of the for loop iterates over a slice or map.
+
+When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
+![image](https://user-images.githubusercontent.com/35446384/178185406-1c773254-49d2-4bf6-a67f-f99a65a4debf.png)
+
