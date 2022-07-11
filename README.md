@@ -335,4 +335,15 @@ A nil slice has a length and capacity of 0 and has no underlying array.
 ![image](https://user-images.githubusercontent.com/35446384/178181093-8aded6f5-3ed9-4211-9676-366dd7b77412.png)
 ![image](https://user-images.githubusercontent.com/35446384/178181213-10680009-375a-40d7-b50b-10e165e29cbd.png)
 
+# Appending to a slice
+It is common to append new elements to a slice, and so Go provides a built-in append function. The documentation of the built-in package describes append.
+
+func append(s []T, vs ...T) []T
+The first parameter s of append is a slice of type T, and the rest are T values to append to the slice.
+
+The resulting value of append is a slice containing all the elements of the original slice plus the provided values.
+
+![image](https://user-images.githubusercontent.com/35446384/178181977-450a6582-c163-450d-b93a-a92032dc9894.png)
+![image](https://user-images.githubusercontent.com/35446384/178181994-18acbc34-5bed-4307-beac-b971cf734e22.png)
+
 
