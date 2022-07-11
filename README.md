@@ -333,5 +333,6 @@ The zero value of a slice is nil.
 
 A nil slice has a length and capacity of 0 and has no underlying array.
 ![image](https://user-images.githubusercontent.com/35446384/178181093-8aded6f5-3ed9-4211-9676-366dd7b77412.png)
+![image](https://user-images.githubusercontent.com/35446384/178181213-10680009-375a-40d7-b50b-10e165e29cbd.png)
 
 
