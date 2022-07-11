@@ -353,3 +353,12 @@ The range form of the for loop iterates over a slice or map.
 When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
 ![image](https://user-images.githubusercontent.com/35446384/178185406-1c773254-49d2-4bf6-a67f-f99a65a4debf.png)
 
+# Map literals
+Map literals are like struct literals, but the keys are required.
+
+![image](https://user-images.githubusercontent.com/35446384/178229073-d9bd2e21-57b1-4655-8943-da204e2997a4.png)
+
+**You can create map by using make function**
+![image](https://user-images.githubusercontent.com/35446384/178230389-bb642ba3-53b0-4922-89ba-effe0a1d2946.png)
+
+
