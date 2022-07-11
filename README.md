@@ -361,4 +361,15 @@ Map literals are like struct literals, but the keys are required.
 **You can create map by using make function**
 ![image](https://user-images.githubusercontent.com/35446384/178230389-bb642ba3-53b0-4922-89ba-effe0a1d2946.png)
 
+# Map  literal
+# type Vertex struct {
+	X int
+	Y int
+}
+**map literal**
+	var maparrayLiteral = map[string]Vertex{
+		"One": {1, 2},
+		"Two": {3, 4},
+	}
+	fmt.Printf("the map using array literal %v \n", maparrayLiteral)
 
