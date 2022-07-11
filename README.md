@@ -373,3 +373,5 @@ Map literals are like struct literals, but the keys are required.
 	}
 	fmt.Printf("the map using array literal %v \n", maparrayLiteral)
 
+![image](https://user-images.githubusercontent.com/35446384/178246404-6a961b52-acc7-42b1-8e6e-425703ff08bb.png)
+
