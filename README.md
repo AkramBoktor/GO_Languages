@@ -327,3 +327,11 @@ To specify a capacity, pass a third argument to make:
 b := make([]int, 0, 5) // len(b)=0, cap(b)=5
 ![image](https://user-images.githubusercontent.com/35446384/178131435-7cf02e97-b0e3-4cae-92c4-1227adb35918.png)
 
+# Slice nil
+
+The zero value of a slice is nil.
+
+A nil slice has a length and capacity of 0 and has no underlying array.
+![image](https://user-images.githubusercontent.com/35446384/178181093-8aded6f5-3ed9-4211-9676-366dd7b77412.png)
+
+
