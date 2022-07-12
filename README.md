@@ -396,3 +396,6 @@ If key is not in the map, then elem is the zero value for the map's element type
 Note: If elem or ok have not yet been declared you could use a short declaration form:
 
 elem, ok := m[key]
+
+![image](https://user-images.githubusercontent.com/35446384/178401838-24ca6828-064b-433e-b3fa-ba75b1bf00b5.png)
+
