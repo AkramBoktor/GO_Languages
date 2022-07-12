@@ -375,3 +375,24 @@ Map literals are like struct literals, but the keys are required.
 
 ![image](https://user-images.githubusercontent.com/35446384/178246404-6a961b52-acc7-42b1-8e6e-425703ff08bb.png)
 
+# Insert _ Update _ Delete Value from the Map
+
+Insert or update an element in map m:
+
+m[key] = elem
+Retrieve an element:
+
+elem = m[key]
+Delete an element:
+
+delete(m, key)
+Test that a key is present with a two-value assignment:
+
+elem, ok = m[key]
+If key is in m, ok is true. If not, ok is false.
+
+If key is not in the map, then elem is the zero value for the map's element type.
+
+Note: If elem or ok have not yet been declared you could use a short declaration form:
+
+elem, ok := m[key]
