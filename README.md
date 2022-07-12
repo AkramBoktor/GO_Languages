@@ -353,3 +353,49 @@ The range form of the for loop iterates over a slice or map.
 When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
 ![image](https://user-images.githubusercontent.com/35446384/178185406-1c773254-49d2-4bf6-a67f-f99a65a4debf.png)
 
+# Map literals
+Map literals are like struct literals, but the keys are required.
+
+![image](https://user-images.githubusercontent.com/35446384/178229073-d9bd2e21-57b1-4655-8943-da204e2997a4.png)
+
+**You can create map by using make function**
+![image](https://user-images.githubusercontent.com/35446384/178230389-bb642ba3-53b0-4922-89ba-effe0a1d2946.png)
+
+# Map  literal
+# type Vertex struct {
+	X int
+	Y int
+}
+**map literal**
+	var maparrayLiteral = map[string]Vertex{
+		"One": {1, 2},
+		"Two": {3, 4},
+	}
+	fmt.Printf("the map using array literal %v \n", maparrayLiteral)
+
+![image](https://user-images.githubusercontent.com/35446384/178246404-6a961b52-acc7-42b1-8e6e-425703ff08bb.png)
+
+# Insert _ Update _ Delete Value from the Map
+
+Insert or update an element in map m:
+
+m[key] = elem
+Retrieve an element:
+
+elem = m[key]
+Delete an element:
+
+delete(m, key)
+Test that a key is present with a two-value assignment:
+
+elem, ok = m[key]
+If key is in m, ok is true. If not, ok is false.
+
+If key is not in the map, then elem is the zero value for the map's element type.
+
+Note: If elem or ok have not yet been declared you could use a short declaration form:
+
+elem, ok := m[key]
+
+![image](https://user-images.githubusercontent.com/35446384/178401838-24ca6828-064b-433e-b3fa-ba75b1bf00b5.png)
+
