@@ -108,9 +108,29 @@ func main() {
 	and the second is a copy of the element at that index.*/
 	rangePowArray := []int{1, 2, 3, 4, 5, 6, 7}
 	for i, v := range rangePowArray {
-
 		fmt.Printf("the index value =%d and the value element = %d \n", i, v)
-
 	}
 
+	//map
+	m := map[string]int{
+		"Akram": 1,
+	}
+	fmt.Printf("The map of declear new list = %v \n", m)
+	// map for intialize
+	var arrayMap = make(map[int]int)
+	arrayMap[1] = 1
+	fmt.Printf("The map of declear new list  by using make = %v \n", arrayMap)
+	// map literal
+	var maparrayLiteral = map[string]Vertex{
+		"One": {1, 2},
+		"Two": {3, 4},
+	}
+	fmt.Printf("the map using array literal %v \n", maparrayLiteral)
+	//Insert _ Update _ Delete Value from the Map
+	//retrieve value of map
+	var firstValueOfMap = maparrayLiteral["One"]
+	fmt.Printf("Retrieve the value of map %d \n", firstValueOfMap)
+	// Delete the map is by deleteing function by map name and key
+	delete(maparrayLiteral, "One")
+	fmt.Printf("map after delete an elements from it %v \n", maparrayLiteral)
 }
