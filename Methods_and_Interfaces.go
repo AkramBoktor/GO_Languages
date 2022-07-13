@@ -42,6 +42,7 @@ func main() {
 	// Go language doesn't have classes but it's have method
 	v := Vertex{3.0, 4.0}
 	fmt.Printf("The multiple sqrt function is %v \n", Abs(v))
+	fmt.Printf("After the method The multiple sqrt function is %f \n", v)
 
 	// calll method with non struct types
 	fmt.Println("Called Method of non struct types")
