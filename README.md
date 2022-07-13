@@ -403,4 +403,22 @@ elem, ok := m[key]
 
 ![image](https://user-images.githubusercontent.com/35446384/178401838-24ca6828-064b-433e-b3fa-ba75b1bf00b5.png)
 
+# Methods continued
+You can declare a method on non-struct types, too.
+In this example we see a numeric type MyFloat with an Abs method.
+You can only declare a method with a receiver whose type is defined in the same package as the method. You cannot declare a method with a receiver whose type is defined in another package (which includes the built-in types such as int)
+
+![image](https://user-images.githubusercontent.com/35446384/178640361-25b98cb7-29a4-4028-a906-dda4d80c91ce.png)
+
+# Pointer receivers
+You can declare methods with pointer receivers.
+This means the receiver type has the literal syntax *T for some type T. (Also, T cannot itself be a pointer such as *int.)
+For example, the Scale method here is defined on *Vertex.
+Methods with pointer receivers can modify the value to which the receiver points (as Scale does here). Since methods often need to modify their receiver, pointer receivers are more common than value receivers.
+Try removing the * from the declaration of the Scale function on line 16 and observe how the program's behavior changes.
+
+![image](https://user-images.githubusercontent.com/35446384/178640400-ad50f399-98da-4d7c-892f-6fa10ff38ace.png)
+
+
+
 
