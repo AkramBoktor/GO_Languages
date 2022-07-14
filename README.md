@@ -504,4 +504,6 @@ An interface value holds a value of a specific underlying concrete type.
 Calling a method on an interface value executes the method of the same name on its underlying type.
 ![image](https://user-images.githubusercontent.com/35446384/178895693-182727c6-5c7b-4e23-91fb-00e7b131f2d5.png)
 
+![image](https://user-images.githubusercontent.com/35446384/178898158-1519b546-716f-4ad1-a7d7-edd25404f378.png)
+
 
