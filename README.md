@@ -487,3 +487,11 @@ In general, all methods on a given type should have either value or pointer rece
 
 ![image](https://user-images.githubusercontent.com/35446384/178648517-7ee72b97-7e84-4c7c-b7c8-1745f4d97f50.png)
 
+# Interfaces are implemented implicitly
+A type implements an interface by implementing its methods. There is no explicit declaration of intent, no "implements" keyword.
+
+Implicit interfaces decouple the definition of an interface from its implementation, which could then appear in any package without prearrangement.
+
+![image](https://user-images.githubusercontent.com/35446384/178891712-58a8b45e-6b1b-4491-bbac-f689e28df65a.png)
+
+
