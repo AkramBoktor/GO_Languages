@@ -515,3 +515,12 @@ Note that an interface value that holds a nil concrete value is itself non-nil.
 
 ![image](https://user-images.githubusercontent.com/35446384/178919895-29dbec37-400e-42be-b85b-2808a5089feb.png)
 
+# Nil interface values
+
+A nil interface value holds neither value nor concrete type.
+
+Calling a method on a nil interface is a run-time error because there is no type inside the interface tuple to indicate which concrete method to call.
+
+![image](https://user-images.githubusercontent.com/35446384/178930173-937fb231-1497-4e3d-8f0d-f2695d95e6b6.png)
+
+
