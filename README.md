@@ -506,4 +506,12 @@ Calling a method on an interface value executes the method of the same name on i
 
 ![image](https://user-images.githubusercontent.com/35446384/178898158-1519b546-716f-4ad1-a7d7-edd25404f378.png)
 
+# Interface values with nil underlying values
+If the concrete value inside the interface itself is nil, the method will be called with a nil receiver.
+
+In some languages this would trigger a null pointer exception, but in Go it is common to write methods that gracefully handle being called with a nil receiver (as with the method M in this example.)
+
+Note that an interface value that holds a nil concrete value is itself non-nil.
+
+![image](https://user-images.githubusercontent.com/35446384/178919895-29dbec37-400e-42be-b85b-2808a5089feb.png)
 
