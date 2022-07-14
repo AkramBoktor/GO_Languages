@@ -495,3 +495,13 @@ Implicit interfaces decouple the definition of an interface from its implementat
 ![image](https://user-images.githubusercontent.com/35446384/178891712-58a8b45e-6b1b-4491-bbac-f689e28df65a.png)
 
 
+# Interface values
+Under the hood, interface values can be thought of as a tuple of a value and a concrete type:
+
+(value, type)
+An interface value holds a value of a specific underlying concrete type.
+
+Calling a method on an interface value executes the method of the same name on its underlying type.
+![image](https://user-images.githubusercontent.com/35446384/178895693-182727c6-5c7b-4e23-91fb-00e7b131f2d5.png)
+
+
