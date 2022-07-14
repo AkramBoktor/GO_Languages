@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 // make interface here
@@ -15,8 +16,15 @@ type T struct {
 func (t *T) M() {
 	fmt.Println(t.S)
 }
-func describe(t *T) {
-	fmt.Printf("the describe is type %T and value is %v \n", t, t.S)
+func describe(t I) {
+	fmt.Printf("the describe is type %T and value is %v \n", t, t)
+}
+
+// using another type
+type F float64
+
+func (f F) M() {
+	fmt.Println(f)
 }
 
 func main() {
@@ -27,4 +35,9 @@ func main() {
 	testStruct.M()
 	// print type and value
 	describe(testStruct)
+
+	// another type of float
+	var testFloat = F(math.Pi)
+	describe(testFloat)
+	testFloat.M()
 }
