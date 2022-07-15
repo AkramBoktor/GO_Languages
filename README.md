@@ -504,4 +504,35 @@ An interface value holds a value of a specific underlying concrete type.
 Calling a method on an interface value executes the method of the same name on its underlying type.
 ![image](https://user-images.githubusercontent.com/35446384/178895693-182727c6-5c7b-4e23-91fb-00e7b131f2d5.png)
 
+![image](https://user-images.githubusercontent.com/35446384/178898158-1519b546-716f-4ad1-a7d7-edd25404f378.png)
+
+# Interface values with nil underlying values
+If the concrete value inside the interface itself is nil, the method will be called with a nil receiver.
+
+In some languages this would trigger a null pointer exception, but in Go it is common to write methods that gracefully handle being called with a nil receiver (as with the method M in this example.)
+
+Note that an interface value that holds a nil concrete value is itself non-nil.
+
+![image](https://user-images.githubusercontent.com/35446384/178919895-29dbec37-400e-42be-b85b-2808a5089feb.png)
+
+# Nil interface values
+
+A nil interface value holds neither value nor concrete type.
+
+Calling a method on a nil interface is a run-time error because there is no type inside the interface tuple to indicate which concrete method to call.
+
+![image](https://user-images.githubusercontent.com/35446384/178930173-937fb231-1497-4e3d-8f0d-f2695d95e6b6.png)
+
+# The empty interface
+The interface type that specifies zero methods is known as the empty interface:
+
+interface{}
+
+An empty interface may hold values of any type. (Every type implements at least zero methods.)
+
+Empty interfaces are used by code that handles values of unknown type. For example, fmt.Print takes any number of arguments of type interface{}.
+
+![image](https://user-images.githubusercontent.com/35446384/179142642-1ba9d6a7-afa7-4125-92e8-639194b428dc.png)
+
+
 
