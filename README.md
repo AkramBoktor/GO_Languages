@@ -523,4 +523,16 @@ Calling a method on a nil interface is a run-time error because there is no type
 
 ![image](https://user-images.githubusercontent.com/35446384/178930173-937fb231-1497-4e3d-8f0d-f2695d95e6b6.png)
 
+# The empty interface
+The interface type that specifies zero methods is known as the empty interface:
+
+interface{}
+
+An empty interface may hold values of any type. (Every type implements at least zero methods.)
+
+Empty interfaces are used by code that handles values of unknown type. For example, fmt.Print takes any number of arguments of type interface{}.
+
+![image](https://user-images.githubusercontent.com/35446384/179142642-1ba9d6a7-afa7-4125-92e8-639194b428dc.png)
+
+
 
