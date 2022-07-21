@@ -574,3 +574,15 @@ This switch statement tests whether the interface value i holds a value of type 
 respectively and hold the value held by i. In the default case (where there is no match), the variable v is of the same interface type and value as i.
 
 ![image](https://user-images.githubusercontent.com/35446384/179388768-01163054-ded0-42f8-b8a1-5b179bc5892b.png)
+
+#Stringers
+
+One of the most ubiquitous interfaces is Stringer defined by the fmt package.
+
+type Stringer interface {
+    String() string
+}
+A Stringer is a type that can describe itself as a string. The fmt package (and many others) look for this interface to print values.
+
+![image](https://user-images.githubusercontent.com/35446384/180149548-026df1fb-ff7d-4f87-91fb-1992fcf8c87f.png)
+
