@@ -575,7 +575,7 @@ respectively and hold the value held by i. In the default case (where there is n
 
 ![image](https://user-images.githubusercontent.com/35446384/179388768-01163054-ded0-42f8-b8a1-5b179bc5892b.png)
 
-#Stringers
+# Stringers
 
 One of the most ubiquitous interfaces is Stringer defined by the fmt package.
 
