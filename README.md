@@ -586,3 +586,10 @@ A Stringer is a type that can describe itself as a string. The fmt package (and 
 
 ![image](https://user-images.githubusercontent.com/35446384/180149548-026df1fb-ff7d-4f87-91fb-1992fcf8c87f.png)
 
+ # Console Input (Bufio Scanner) & Type Conversion
+ Read input from user keyboard , make **scan** for it and print
+ 
+ **bufio** , **os** , **fmt**
+ 
+ ![image](https://user-images.githubusercontent.com/35446384/180376011-710bd5e4-0ffb-446a-b470-87ed968591ed.png)
+
