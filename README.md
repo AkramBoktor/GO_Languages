@@ -592,4 +592,8 @@ A Stringer is a type that can describe itself as a string. The fmt package (and 
  **bufio** , **os** , **fmt**
  
  ![image](https://user-images.githubusercontent.com/35446384/180376011-710bd5e4-0ffb-446a-b470-87ed968591ed.png)
+ 
+ # convert string to int 
+ ![image](https://user-images.githubusercontent.com/35446384/180597221-6e3a52af-d519-4a9b-b819-c9bc8bde2a14.png)
+
 
