@@ -597,6 +597,8 @@ A Stringer is a type that can describe itself as a string. The fmt package (and 
  ![image](https://user-images.githubusercontent.com/35446384/180597221-6e3a52af-d519-4a9b-b819-c9bc8bde2a14.png)
 
 #  Chained Conditionals (AND, OR, NOT)
-** the operator you have !  ||  && **
+**the operator you have !  ||  &&**
+
 **true || false -> true**
+
 **true && false -> false**
