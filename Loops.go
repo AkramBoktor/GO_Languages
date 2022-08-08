@@ -50,4 +50,23 @@ func main() {
 			}
 		}
 	}
+
+	// maps
+	maparray := map[string]int{
+		"apple":  1,
+		"orange": 2,
+		"banana": 3,
+	}
+
+	// to add new element
+	maparray["mango"] = 4
+	for fruit, val := range maparray {
+
+		fmt.Println(fruit, val)
+	}
+	delete(maparray, "mango")
+	fmt.Printf("print map after delete %v \n", maparray)
+	// check if there is an element
+	var value, check = maparray["mango"]
+	println(value, check)
 }
